@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card_block {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon_card {
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.icon_card_img {
+  width: 60px;
+  height: 60px;
+  opacity: 0.3;
+}
+
+.active_americ_ex,
+.active_Diners,
+.active_Discover,
+.active_JCB,
+.active_master_card,
+.active_mir,
+.active_visa {
+  opacity: 1;
+}
+
+.link__icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.link__icon a {
+  font-size: 10px;
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.submit {
+  background: green;
+  height: 25px;
+  margin-left: 10px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.input {
+  height: 25px;
+  border-radius: 10px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.checking_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.result_of_checking {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: wheat;
+}
+
+.result_item_true {
+  display: none;
+  background: green;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.result_item_false {
+  display: none;
+  background: red;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.active_result_true,
+.active_result_false {
+  display: block;
+}
