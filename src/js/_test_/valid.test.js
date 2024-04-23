@@ -1,6 +1,6 @@
 import Valid from "../classes/valid";
 
-test("Validator checking for incorrect card number entry", () => {
+test("Checking the validator for incorrectly entered card number with letters", () => {
   const valid = new Valid();
   const result = valid.valid("2chdsvhuis88");
 

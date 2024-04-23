@@ -3166,6 +3166,11 @@ eslint-plugin-prettier@^4.2.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
+eslint-prettier@^0.0.0-empty:
+  version "0.0.0-empty"
+  resolved "https://registry.yarnpkg.com/eslint-prettier/-/eslint-prettier-0.0.0-empty.tgz#47e8d7b6c3a83f5ba364078d8ad67e17ad933f3b"
+  integrity sha512-SXB1qOJbk8eptXC0ZNyHIAPNNEKGsmlPFKvoRJBmY6t0UWmNnRdbWa7LIRDC+1ksQoHgL0iub7BGqKgGLMxcUw==
+
 eslint-scope@5.1.1, eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"

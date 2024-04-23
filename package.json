@@ -40,6 +40,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "eslint-prettier": "^0.0.0-empty",
     "puppeteer": "^22.6.5"
   }
 }

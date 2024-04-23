@@ -1,12 +1,10 @@
 import puppetteer from "puppeteer";
-import { fork } from "child_process";
 
 jest.setTimeout(30000); // default puppeteer timeout
 
 describe("Credit Card Validator form", () => {
   let browser = null;
   let page = null;
-  let server = null;
   const baseUrl = "http://localhost:9000";
 
   beforeAll(async () => {
