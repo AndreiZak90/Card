@@ -17,7 +17,7 @@ describe("Credit Card Validator form", () => {
     page = await browser.newPage();
   });
 
-  test("test master_card", async () => {
+  test("master_card", async () => {
     await page.goto(baseUrl);
     await page.waitForSelector(".card_block");
 
@@ -30,7 +30,7 @@ describe("Credit Card Validator form", () => {
     await page.waitForSelector(".active_result_true");
   });
 
-  test("test visa", async () => {
+  test("visa", async () => {
     await page.goto(baseUrl);
     await page.waitForSelector(".card_block");
 
